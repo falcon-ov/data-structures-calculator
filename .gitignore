@@ -1,13 +1,10 @@
+### Maven build ###
 target/
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -36,3 +33,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Vaadin (только в UI-модуле) ###
+calculator-ui-vaadin/node_modules/
+calculator-ui-vaadin/.vaadin/
+calculator-ui-vaadin/.frontend/
+calculator-ui-vaadin/frontend/generated/
